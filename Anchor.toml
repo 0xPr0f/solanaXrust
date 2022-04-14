@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+solana_xrust = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/praise/.config/solana/id.json"
+
+[scripts]
+test = "node tests/solanaXrust.js"
