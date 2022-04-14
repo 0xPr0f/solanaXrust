@@ -49,7 +49,7 @@ const main = async () => {
   // Fetch data from the account.
   console.log(baseAccount.publicKey);
   let account = await program.account.baseAccount.fetch(baseAccount.publicKey);
-  console.log("👀 GIF Count", account.total_gifs.toString());
+  console.log("👀 GIF Count", account.totalGifs.toString());
 };
 
 const runMain = async () => {
